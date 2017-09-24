@@ -1,3 +1,4 @@
+import fire from './fire':
 class StudentsList extends React.Component {
   constructor(props) {
     super(props);
@@ -8,6 +9,7 @@ class StudentsList extends React.Component {
     this.handleStudentsUpVote = this.handleStudentsUpVote.bind(this);
   }
 
+  
   componentDidMount() {
     this.setState({ students: Seed.students });
   }
